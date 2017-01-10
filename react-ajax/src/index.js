@@ -6,7 +6,8 @@ import About from './components/About';
 import Faq from './components/Faq';
 import Home from './components/Home';
 import Boxes from './components/boxes/Boxes'
-import Random from './random/Random'
+import Convertor from './convertor/Convertor'
+import Movie from './movie/Movie'
 
 
 ReactDOM.render(
@@ -16,7 +17,8 @@ ReactDOM.render(
       <Route path="about" component={About}/>
       <Route path="faq" component={Faq}/>
       <Route path="boxes" component={Boxes}/>
-      <Route path="random" component={Random}/>
+      <Route path="convertor" component={Convertor}/>
+      <Route path="movie" component={Movie}/>
     </Route>
   </Router>,
   document.getElementById('root')

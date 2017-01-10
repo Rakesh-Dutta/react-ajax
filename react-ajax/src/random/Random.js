@@ -21,7 +21,6 @@ export default class Random extends React.Component{
   }
 
   render(){
-    let array = this.state.data.map((item,key) => {return <li id={key}>{item}</li>})
     return(
       <div>
         <h1>Random</h1>
@@ -31,7 +30,7 @@ export default class Random extends React.Component{
 
         </div>
         <ul>
-            {array}
+            {this.state.data.map((item,key) => {return <li id={key}>{item}</li>})}
         </ul>
       </div>
     );

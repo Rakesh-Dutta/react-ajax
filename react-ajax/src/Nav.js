@@ -23,6 +23,8 @@ export default () => {
               <li><Link to="/faq">Faq</Link></li>
               <li><Link to="/Boxes">Boxes</Link></li>
               <li><Link to="/Random">Random</Link></li>
+              <li><Link to="/Movie">Movie</Link></li>
+
             </ul>
           </div>
         </div>
